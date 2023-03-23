@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:wght@100&family=Sarala:wght@400;700&display=swap');
+
+*{
+    font-family: 'Roboto';
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.titulo{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: solid black 1px;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 1%;
+    background-color: blueviolet;
+    color: white;
+}

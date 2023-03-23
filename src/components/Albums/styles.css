@@ -1,0 +1,19 @@
+.albums{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    gap: 7px;
+}
+.albumsTitle{
+    display: flex;
+    border: solid black 1px;
+    border-radius: 7px;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px;
+    width: 98%;
+    cursor: pointer;
+}
